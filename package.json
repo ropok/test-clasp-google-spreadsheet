@@ -1,0 +1,16 @@
+{
+  "name": "test-clasp-google-spreadsheet",
+  "private": true,
+  "scripts": {
+    "clasp": "clasp",
+    "test": "node --test",
+    "preview": "node scripts/preview.cjs",
+    "screenshot": "node scripts/screenshot.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@google/clasp": "3.4.1"
+  }
+}
